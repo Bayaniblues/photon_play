@@ -9,3 +9,4 @@ pandas
 dash-bootstrap-components
 requests
 python-dotenv
+spotipy
