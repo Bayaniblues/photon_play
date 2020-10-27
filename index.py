@@ -1,6 +1,6 @@
 import dash_core_components as dcc
 import dash_html_components as html
-from app import app
+from app import server as application
 from apps import generate
 # Rock
 from dash.dependencies import Output, Input
