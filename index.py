@@ -7,10 +7,8 @@ from dash.dependencies import Output, Input
 import dash_bootstrap_components as dbc
 
 
-
 app.layout = html.Div([
     dcc.Store(id='memory', storage_type='session'),
-
     dcc.Location(id='url', refresh=False),
     html.Div(id='page-content'),
 ])
@@ -63,4 +61,4 @@ def display_page(pathname):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
