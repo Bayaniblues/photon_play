@@ -1,0 +1,11 @@
+git+https://github.com/Bayaniblues/strawberryfields.git
+gunicorn>=19.7.1
+plotly
+dash
+dash-renderer
+dash-html-components
+dash-core-components
+pandas
+dash-bootstrap-components
+requests
+python-dotenv
